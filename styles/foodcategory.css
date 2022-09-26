@@ -33,7 +33,28 @@
     }
     .categories .cat-container .cat-description{
         text-align: center;
-        width:400px;
+        width:380px;
     }
 }
-
+@media (max-width:500px){
+    .moveupindian{
+        position:relative;
+        top:-220px;
+    }
+    .fixedindian{
+        position:relative;
+        top:250px;
+    }
+    .moveupitalian{
+        position:relative;
+        top:-225px;
+    }
+    .fixeditalian{
+        position:relative;
+        top:300px;        
+    }
+    .categories .cat-container .cat-description{
+        text-align: center;
+        width:380px;
+    }
+}
