@@ -284,7 +284,7 @@ main .hero-menu-cards .container {
 }
 
 main .our-menu {
-  margin: 4rem 0;
+  margin: 5rem 0;
 }
 
 .our-menu .our-menu-container {
@@ -471,9 +471,9 @@ main .hero-menu-cards .container .card {
 
   }
   .cat-container .cat-description p {
-    font-size: 1rem;
-    padding: 1rem;
-    line-height: 1.5;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 0 20px;
   }
 }
 
