@@ -232,13 +232,13 @@ main section {
 
 .name .input:focus-within,
 .email .input:focus-within {
-    border-color: var(--clr-accent);
+    border-color: var(--clr-main-bg);
 }
 
 
 .name .input:focus-within i,
 .email .input:focus-within i {
-    color: var(--clr-accent);
+    color: #8a5f00;
 }
 
 .button {
