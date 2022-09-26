@@ -5,9 +5,10 @@
 }
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Nunito", sans-serif; 
+ 
 }
-
+/* 
 .SAS-nav-title {
     display: block;
     color: #fff;
@@ -27,7 +28,7 @@
 
 .navbar-brand {
     color: #fbbc05;
-}
+} */
 
 .bg-light {
     background-color: transparent !important;
@@ -117,7 +118,7 @@
      border-radius: var(--border-radius);
 }
 
-.navbar-nav a {
+/* .navbar-nav a {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
@@ -143,9 +144,9 @@
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: #fff;
-}
+} */
 
-.w-100 {
+/* .w-100 {
     height: 100vh;
 }
 
@@ -154,14 +155,14 @@
     font-size: 18px;
     line-height: 0.3;
     background: #fff;
-}
+} */
 
 /* added the body background for having the same color as footer */
 body{
     background:black;
 }
 
-/* @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
     .navbar-nav {
         text-align: center;
@@ -181,26 +182,29 @@ body{
         font-size: 15px;
     }
 
-} */
+}
 
 
 
 
 
 
-/* @media only screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) {
 
     .nav-content{
         display: flex;
         flex-direction: column;
     }
     
-} */
+}
 
 
 
 .menu-card-container{
     margin: 30px 40px 0px 40px;
+}
+.title-container{
+    padding-top: 2rem;
 }
 .title{
     font-weight: 700;
