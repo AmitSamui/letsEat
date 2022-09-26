@@ -171,7 +171,7 @@ main section {
 .info_socials a:hover,
 .info_socials a:focus {
     background-color: var(--clr-accent);
-    color: var(--clr-light);
+    color: var(--clr-main-bg);
 }
 
 .form-container {
