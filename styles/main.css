@@ -453,7 +453,17 @@ main .hero-menu-cards .container .card {
   main {
     padding: 0 2rem;
   }
+
+  .discount-card .discount-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .discount-card .discount-container h3 {
+    text-align: center;
+  }
 }
+
 
 @media only screen and (max-width:500px) {
   .our-menu-container .menu-col-1 img {
@@ -463,17 +473,33 @@ main .hero-menu-cards .container .card {
   .our-menu-container .menu-col-2 img {
     width: 150px;
   }
+
   .about-heading .heading-img img {
     width: 350px;
   }
+
   .categories .cat-container .cat-img img {
     width: 350px;
 
   }
+
   .cat-container .cat-description p {
     font-size: 0.9rem;
     line-height: 1.4;
     padding: 0 20px;
+  }
+  .discount-card .discount-container {
+    gap: 1.5rem;
+  }
+  .discount-card .discount-container p{
+    font-size: 0.7rem;
+  }
+  .discount-card .discount-container p span {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    padding: 3px 8px;
   }
 }
 
